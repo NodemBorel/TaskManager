@@ -30,7 +30,7 @@ public class TaskManager {
         ){
             statement.setString(1,tache.getTitre());
             statement.setString(2, tache.getDescription());
-            statement.setString(3, tache.getDate_echeance());
+            statement.setDate(3, Date.valueOf(tache.getDate_echeance()));
             statement.setInt(4, tache.getPriorite());
             statement.setInt(5, id);
             statement.executeUpdate();
