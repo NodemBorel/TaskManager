@@ -1,0 +1,4 @@
+com\taskmanager\DatabaseConnection.class
+com\taskmanager\TaskManager.class
+com\taskmanager\Main.class
+com\taskmanager\Tache.class

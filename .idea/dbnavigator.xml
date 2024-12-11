@@ -75,7 +75,6 @@ VALUES
 SELECT * FROM Taches;
 
 SELECT * FROM Categories;]]></console>
-      <console name="task-db" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -109,7 +108,7 @@ SELECT * FROM Categories;]]></console>
           <description value="" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
-          <database-version value="13.1" />
+          <database-version value="17.2" />
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />
@@ -120,8 +119,8 @@ SELECT * FROM Categories;]]></console>
           <tns-folder value="" />
           <tns-profile value="" />
           <type value="USER_PASSWORD" />
-          <user value="user" />
-          <deprecated-pwd value="cGFzc3dvcmQ=" />
+          <user value="postgres" />
+          <deprecated-pwd value="dXNlcjI0" />
         </database>
         <properties>
           <auto-commit value="false" />
